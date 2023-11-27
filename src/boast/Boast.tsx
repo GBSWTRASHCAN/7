@@ -213,7 +213,7 @@ function Boast () {
               </li>
             </ul>
           </div>
-        </div>
+        </div> 
       </section>
     </div>
   );
