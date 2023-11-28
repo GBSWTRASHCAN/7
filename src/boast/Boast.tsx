@@ -17,6 +17,10 @@ import Cozmo from '../imgs/employ/코스모.jpeg'
 import Inplep from '../imgs/employ/inplab_logo_1579657421.webp'
 import Qs from '../imgs/employ/logo_64034.jpg'
 import Se from '../imgs/employ/다운로드 (9).png'
+import Cow from '../imgs/employ/unnamed.webp'
+import LPC from '../imgs/employ/다운로드 (10).png'
+import Arpa from '../imgs/employ/다운로드 (11).png'
+import Woorl from '../imgs/employ/pnkewq_b6r4-0_logo.jpg'
 
 function Boast () {
   return (
@@ -262,6 +266,56 @@ function Boast () {
                   </div>
                   <div className={styles.class_desc}>
                     <div className={styles.employ_title}>(주)에스이코리아</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul className={styles.employ_list}>
+              <li className={styles.employ_card}>
+              <img src={Cow} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>2명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)민속친한우</div>
+                  </div>
+                </div>
+              </li>
+              <li className={styles.employ_card}>
+              <img src={LPC} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>3명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)민속LPC</div>
+                  </div>
+                </div>
+              </li>
+              <li className={styles.employ_card}>
+              <img src={Arpa} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>1명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)한국알파시스템</div>
+                  </div>
+                </div>
+              </li>
+              <li className={styles.employ_card}>
+              <img src={Woorl} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>2명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)우리소프트</div>
                   </div>
                 </div>
               </li>
