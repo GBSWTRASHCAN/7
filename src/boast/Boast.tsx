@@ -9,10 +9,14 @@ import Wkit from '../imgs/employ/channels4_profile.jpg'
 import Engel from '../imgs/employ/다운로드 (1).png'
 import Data from '../imgs/employ/yDgWop8J0d0WeNMYjR5Xv.jpg'
 import Ark from '../imgs/employ/CP00013344_20230216172101.png'
-import Idea from '../imgs/employ/다운로드.jpeg'
+import Idea from '../imgs/employ/다운로드 (5).png'
 import Yhdeta from '../imgs/employ/다운로드 (2).png'
-import Jsolution from '../imgs/employ/다운로드 (3).png'
+import Jsolution from '../imgs/employ/J230JkeBCtFkRkSW2LUWKKwRzRmi2OZn.jpeg'
 import KYS from '../imgs/employ/logo_afc76f7d777755.jpeg'
+import Cozmo from '../imgs/employ/코스모.jpeg'
+import Inplep from '../imgs/employ/inplab_logo_1579657421.webp'
+import Qs from '../imgs/employ/logo_64034.jpg'
+import Se from '../imgs/employ/다운로드 (9).png'
 
 function Boast () {
   return (
@@ -207,7 +211,57 @@ function Boast () {
                     <div className={styles.class_format}>3명 취업</div>
                   </div>
                   <div className={styles.class_desc}>
-                    <div className={styles.employ_title}>(주)제이솔루션</div>
+                    <div className={styles.employ_title}>(주)구일엔지니어링</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul className={styles.employ_list}>
+              <li className={styles.employ_card}>
+              <img src={Cozmo} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>1명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)코스모</div>
+                  </div>
+                </div>
+              </li>
+              <li className={styles.employ_card}>
+              <img src={Inplep} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>2명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)인플랩</div>
+                  </div>
+                </div>
+              </li>
+              <li className={styles.employ_card}>
+              <img src={Qs} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>3명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)큐에스</div>
+                  </div>
+                </div>
+              </li>
+              <li className={styles.employ_card}>
+              <img src={Se} className={styles.class_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>1명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)에스이코리아</div>
                   </div>
                 </div>
               </li>
