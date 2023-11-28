@@ -324,7 +324,7 @@ function Boast () {
         </div> 
       </section>
     </div>
-  );
+  ); 
 }
 
 export default Boast;
