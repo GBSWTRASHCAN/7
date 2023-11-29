@@ -3,7 +3,7 @@ import InstagramIco from '../imgs/instagram-2016-logo-svgrepo-com.svg'
 import SoWonIco from '../imgs/gbsw/sowon.png'
 import FuctionICo from '../imgs/gbsw/전국.png'
 import MouIco from '../imgs/gbsw/MOU.png'
-import KapstoneICo from '../imgs/gbsw/캡스톤.png'
+import KapstoneICo from "../imgs/gbsw/캡스톤.png";
 import C_Ico from '../imgs/gbsw/국제교류.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faMedal, faPhotoFilm } from "@fortawesome/free-solid-svg-icons";  
