@@ -31,7 +31,7 @@ function Boast () {
         <div className={styles.inner}>
           <div className={styles.roadmap_container}>
             <div className={styles.roadmap_title_container}>
-              <div className={styles.roadmap_title}>학교 자랑</div>
+              <div className={styles.roadmap_title}>학교 자랑 </div>
             </div>
             <ul className={styles.class_list}>
               <li className={styles.class_card}>
