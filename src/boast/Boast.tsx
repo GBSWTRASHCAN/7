@@ -8,19 +8,20 @@ import GbswIco from '../imgs/gbsw/symbol-only.png'
 import Wkit from '../imgs/employ/channels4_profile.jpg'
 import Engel from '../imgs/employ/다운로드 (1).png'
 import Data from '../imgs/employ/yDgWop8J0d0WeNMYjR5Xv.jpg'
-import Ark from '../imgs/employ/CP00013344_20230216172101.png'
-import Idea from '../imgs/employ/다운로드 (5).png'
-import Yhdeta from '../imgs/employ/다운로드 (2).png'
+import Ark from '../imgs/employ/다운로드 (13).png'
+import Idea from '../imgs/employ/4d63e7bbb7856efe41890e238f3eb6f9.jpg'
+import Yhdeta from '../imgs/employ/324483533_5398.jpg'
 import Jsolution from '../imgs/employ/J230JkeBCtFkRkSW2LUWKKwRzRmi2OZn.jpeg'
 import KYS from '../imgs/employ/logo_afc76f7d777755.jpeg'
-import Cozmo from '../imgs/employ/코스모.jpeg'
+import Cozmo from '../imgs/employ/rv6u6w_vjwr-ilz8b_logo.jpeg'
 import Inplep from '../imgs/employ/inplab_logo_1579657421.webp'
-import Qs from '../imgs/employ/logo_64034.jpg'
+import Qs from '../imgs/employ/image (2).png'
 import Se from '../imgs/employ/다운로드 (9).png'
-import Cow from '../imgs/employ/unnamed.webp'
+import Cow from '../imgs/employ/r9831n_8tyc-1mr854s_logo.jpg'
 import LPC from '../imgs/employ/다운로드 (10).png'
 import Arpa from '../imgs/employ/다운로드 (11).png'
-import Woorl from '../imgs/employ/pnkewq_b6r4-0_logo.jpg'
+import Woorl from '../imgs/employ/pyfdrs_hn5l-2rxicy_logo.png'
+import Gachi from '../imgs/employ/다운로드 (12).png'
 
 function Boast () {
   return (
@@ -158,7 +159,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-                <img src={Ark} className={styles.class_img} />
+                <img src={Ark} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -172,7 +173,7 @@ function Boast () {
             </ul>
             <ul className={styles.employ_list}>
               <li className={styles.employ_card}>
-              <img src={Idea} className={styles.class_img} />
+              <img src={Idea} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -208,7 +209,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={KYS} className={styles.class_img} />
+              <img src={KYS} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -222,7 +223,7 @@ function Boast () {
             </ul>
             <ul className={styles.employ_list}>
               <li className={styles.employ_card}>
-              <img src={Cozmo} className={styles.class_img} />
+              <img src={Cozmo} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -246,7 +247,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={Qs} className={styles.class_img} />
+              <img src={Qs} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -272,7 +273,7 @@ function Boast () {
             </ul>
             <ul className={styles.employ_list}>
               <li className={styles.employ_card}>
-              <img src={Cow} className={styles.class_img} />
+              <img src={Cow} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -284,7 +285,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={LPC} className={styles.class_img} />
+              <img src={LPC} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -296,7 +297,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={Arpa} className={styles.class_img} />
+              <img src={Arpa} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -308,7 +309,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={Woorl} className={styles.class_img} />
+              <img src={Woorl} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -320,6 +321,32 @@ function Boast () {
                 </div>
               </li>
             </ul>
+            <ul className={styles.employ_list}>
+              <li className={styles.employ_card}>
+              <img src={Gachi} className={styles.gbsw_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>1명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)가치</div>
+                  </div>
+                </div>
+              </li>
+              <li className={styles.employ_card}>
+              <img src={GbswIco} className={styles.gbsw_img} />
+                <div className={styles.class_container}>
+                  <div className={styles.class_skill}>
+                    <div className={styles.class_type}>2023.9.1 기준</div>
+                    <div className={styles.class_format}>1명 취업</div>
+                  </div>
+                  <div className={styles.class_desc}>
+                    <div className={styles.employ_title}>(주)디플로</div>
+                  </div>
+                </div>
+              </li>
+              </ul>
           </div>
         </div> 
       </section>

@@ -52,8 +52,8 @@ function MainWeb () {
                 <div className={styles.skill_usage}>주요 업적</div>
               </div>
             </div>
-            <div className={styles.skill}>
-              <img src={SoWonIco} className={styles.sowon} />
+            <div className={styles.skill} onClick={() => navigate("/Introduce")}>
+              <img src={SoWonIco} className={styles.sowon}/>
               <div className={styles.skill_title}>
                 <div className={styles.skill_name}>학교 소개</div>
                 <div className={styles.skill_usage}>과별소개보러가기</div>
