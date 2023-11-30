@@ -11,7 +11,7 @@ import Data from '../imgs/employ/yDgWop8J0d0WeNMYjR5Xv.jpg'
 import Ark from '../imgs/employ/다운로드 (13).png'
 import Idea from '../imgs/employ/4d63e7bbb7856efe41890e238f3eb6f9.jpg'
 import Yhdeta from '../imgs/employ/324483533_5398.jpg'
-import Jsolution from '../imgs/employ/J230JkeBCtFkRkSW2LUWKKwRzRmi2OZn.jpeg'
+import Jsolution from '../imgs/employ/KakaoTalk_20231130_172938254.png'
 import KYS from '../imgs/employ/logo_afc76f7d777755.jpeg'
 import Cozmo from '../imgs/employ/rv6u6w_vjwr-ilz8b_logo.jpeg'
 import Inplep from '../imgs/employ/inplab_logo_1579657421.webp'
@@ -197,7 +197,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={Jsolution} className={styles.class_img} />
+              <img src={Jsolution} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
