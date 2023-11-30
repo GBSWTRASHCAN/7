@@ -14,9 +14,9 @@ import Yhdeta from '../imgs/employ/324483533_5398.jpg'
 import Jsolution from '../imgs/employ/KakaoTalk_20231130_172938254.png'
 import KYS from '../imgs/employ/logo_afc76f7d777755.jpeg'
 import Cozmo from '../imgs/employ/rv6u6w_vjwr-ilz8b_logo.jpeg'
-import Inplep from '../imgs/employ/inplab_logo_1579657421.webp'
-import Qs from '../imgs/employ/image (2).png'
-import Se from '../imgs/employ/다운로드 (9).png'
+import Inplep from '../imgs/employ/qv8xk0_osyq-geat4m_logo (1).png'
+import Qs from '../imgs/employ/image (3).png'
+import Se from '../imgs/employ/다운로드 (15).png'
 import Cow from '../imgs/employ/r9831n_8tyc-1mr854s_logo.jpg'
 import LPC from '../imgs/employ/다운로드 (10).png'
 import Arpa from '../imgs/employ/다운로드 (11).png'
@@ -235,7 +235,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={Inplep} className={styles.class_img} />
+              <img src={Inplep} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
@@ -259,7 +259,7 @@ function Boast () {
                 </div>
               </li>
               <li className={styles.employ_card}>
-              <img src={Se} className={styles.class_img} />
+              <img src={Se} className={styles.gbsw_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
                     <div className={styles.class_type}>2023.9.1 기준</div>
