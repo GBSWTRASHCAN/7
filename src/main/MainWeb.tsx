@@ -160,8 +160,10 @@ function MainWeb () {
         </div>
       </section>
       <footer>
-        <div className={styles.address}>우[37362] 경상북도 의성군 봉양면 봉호로 14 경북소프트웨어고등하교 Tel. 교무실 054.832.2903</div>
+        <div className={styles.inner}>
+        <div className={styles.address}>우[37362] 경상북도 의성군 봉양면 봉호로 14 경북소프트웨어고등학교 Tel. 교무실 054.832.2903</div>
         <div className={styles.address_title}>Copyright(c) 경북소프트웨어고등학교. All right reserved.</div>
+        </div>
       </footer>
     </div>
   );
