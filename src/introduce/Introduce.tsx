@@ -14,6 +14,8 @@ import Deep from '../imgs/lang_icon/deep-learning.svg'
 import Machine from '../imgs/lang_icon/machine-learning.svg'
 import c2 from '../imgs/lang_icon/c2.svg'
 import unity from '../imgs/lang_icon/unity.svg'
+import Github from '../imgs/github.svg'
+import Green from '../imgs/student_project/green.jpg'
 
 function Introduce () {
   return (
@@ -49,7 +51,7 @@ function Introduce () {
                     인공지능소프트웨어개발과
                   </div>
                   <div className={styles.department_introduce}>
-                    인공지능과 빅데이터에 대한 기본적인 지식을 바탕으로,
+                    인공지능과 빅데이터에 대한 기본적인 지식을 <br /> 바탕으로,
                     인공지능 소프트웨어 전문가 양성
                   </div>
                   <div className={styles.lang_list}>
@@ -70,6 +72,39 @@ function Introduce () {
                     <img src={unity} className={styles.lang} />
                   </div>
                 </div>
+              </div>
+              <div className={styles.software_made}>
+                <div className={styles.made_title}>학생 프로젝트</div>
+                <ul className={styles.class_list}>
+                  <li className={styles.class_card}>
+                    <img src={Green} className={styles.class_img} />
+
+                    <div className={styles.class_container}>
+                      <div className={styles.class_skill}>
+                        <div className={styles.class_type} id={styles.green}>
+                          소프트웨어개발과
+                        </div>
+                        <a
+                          href="https://github.com/Team-Firewall"
+                          target="_blank"
+                          className={styles.git}
+                        >
+                          <img src={Github} className={styles.class_format} />
+                        </a>
+                      </div>
+                      <div className={styles.class_desc}>
+                        <a href="https://mileage.gbsw.hs.kr/" target="_blank">
+                          <div
+                            className={styles.class_title}
+                            id={styles.green_link}
+                          >
+                            경북소프트웨어고등학교 상벌점 시스템
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 @media screen and (min-width: 1100px) {
   .inner {
     max-width: 1100px;
-  } 
+  }
 }
 
 * {
@@ -35,11 +35,12 @@ section {
 .department_title_container {
   width: 100%;
   height: 60px;
+  display: flex;
   align-items: center;
 }
 
 .department_title {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
   text-align: center;
   font-family: 'TmoneyRoundWindExtraBold';
@@ -47,28 +48,40 @@ section {
 
 .department_list {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.software {
+.software,
+.ai,
+.game {
   width: 400px;
   height: 300px;
   margin: auto;
 }
 
-.software_title {
+.software_title,
+.ai_title,
+.game_title {
   width: 80%;
   height: 40px;
-  margin: 10px auto;
-  background-color: #2F598A;
-  color: #fff;
-  font-family: 'TmoneyRoundWindExtraBold';
-  font-size: 1.1rem;
-  text-align: center;
+  margin: 8.5px auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
+  font-family: 'TmoneyRoundWindExtraBold';
+  font-size: 1.1rem;
+}
+
+.software_title {
+  background-color: #2F598A;
+}
+
+.ai_title {
+  background-color: #235C6B;
+}
+
+.game_title {
+  background-color: #329380;
 }
 
 .lang_list {
@@ -89,48 +102,89 @@ section {
   text-align: center;
 }
 
-.ai {
-  width: 400px;
-  height: 300px;
-  margin: auto;
-}
-
-.ai_title {
-  width: 80%;
-  height: 40px;
-  margin: 10px auto;
-  background-color: #235C6B;
-  color: #fff;
-  font-family: 'TmoneyRoundWindExtraBold';
-  font-size: 1.1rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.game {
-  width: 400px;
-  height: 300px;
-  margin: auto;
-}
-
-.game_title {
-  width: 80%;
-  height: 40px;
-  margin: 7px auto;
-  background-color: #329380;
-  color: #fff;
-  font-family: 'TmoneyRoundWindExtraBold';
-  font-size: 1.1rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .char {
   width: 120px;
   margin: auto;
   display: block;
+}
+
+.made_title {
+  font-family: 'TmoneyRoundWindExtraBold';
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.class_list {
+  display: flex;
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+}
+
+.class_card {
+  width: 300px;
+  box-shadow: 10px 10px 10px -5px rgba(25, 42, 70, 0.2);
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.class_img {
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.class_container {
+  width: 100%;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.class_skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.class_type {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'TmoneyRoundWindExtraBold';
+}
+
+.class_format {
+  width: 40px;
+  padding: 0.2rem;
+}
+
+.class_desc {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.class_title {
+  font-weight: bold;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: 'TmoneyRoundWindExtraBold';
+}
+
+.git {
+  position: relative; top: 0px; transition: top 0.2s;
+}
+
+.git:hover {
+  top: -3px;
+}
+
+#green_link {
+  color: black;
+}
+
+#green_link:hover {
+  color: #2F598A;
 }
