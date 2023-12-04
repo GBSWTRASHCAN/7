@@ -64,7 +64,7 @@ section {
   display: flex;
   list-style: none;
   margin: 1rem 0 0 0;
-  padding: 1rem;
+  padding: 1rem; 
   width: 85rem;
 }
 
