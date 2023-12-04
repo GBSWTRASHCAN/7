@@ -1,4 +1,9 @@
 <div align="center">
+  
+### 미완성
+
+</div>
+<div align="center">
   <img src="https://github.com/806gw/Promotion_gbsw/assets/133763382/5e50bbf6-175e-41b6-b1a1-c93c09fb1ac6" width="150px"/>
   <!--
   ### 경북소프트웨어고등학교 홍보웹사이트
