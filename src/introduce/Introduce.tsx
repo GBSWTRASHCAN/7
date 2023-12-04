@@ -16,6 +16,7 @@ import c2 from '../imgs/lang_icon/c2.svg'
 import unity from '../imgs/lang_icon/unity.svg'
 import Github from '../imgs/github.svg'
 import Green from '../imgs/student_project/green.jpg'
+import Aurora from '../imgs/student_project/Aurora.gif'
 
 function Introduce () {
   return (
@@ -25,9 +26,6 @@ function Introduce () {
         <div className={styles.inner}>
           <div className={styles.department}>
             <div className={styles.department_container}>
-              <div className={styles.department_title_container}>
-                <div className={styles.department_title}>학과 소개</div>
-              </div>
               <div className={styles.department_list}>
                 <div className={styles.software}>
                   <img src={Soco} className={styles.char} />
@@ -76,34 +74,58 @@ function Introduce () {
               <div className={styles.software_made}>
                 <div className={styles.made_title}>학생 프로젝트</div>
                 <ul className={styles.class_list}>
-                  <li className={styles.class_card}>
-                    <img src={Green} className={styles.class_img} />
-
-                    <div className={styles.class_container}>
-                      <div className={styles.class_skill}>
-                        <div className={styles.class_type} id={styles.green}>
-                          소프트웨어개발과
+                  <a href="https://mileage.gbsw.hs.kr/" target="_blank">
+                    <li className={styles.class_card}>
+                      <img src={Green} className={styles.class_img} />
+                      <div className={styles.class_container}>
+                        <div className={styles.class_skill}>
+                          <div className={styles.class_type} id={styles.project}>
+                            소프트웨어개발과
+                          </div>
+                          <a
+                            href="https://github.com/Team-Firewall"
+                            target="_blank"
+                            className={styles.git}
+                          >
+                            <img src={Github} className={styles.class_format} />
+                          </a>
                         </div>
-                        <a
-                          href="https://github.com/Team-Firewall"
-                          target="_blank"
-                          className={styles.git}
-                        >
-                          <img src={Github} className={styles.class_format} />
-                        </a>
-                      </div>
-                      <div className={styles.class_desc}>
-                        <a href="https://mileage.gbsw.hs.kr/" target="_blank">
+                        <div className={styles.class_desc}>
                           <div
                             className={styles.class_title}
                             id={styles.green_link}
                           >
                             경북소프트웨어고등학교 상벌점 시스템
                           </div>
-                        </a>
+                        </div>
                       </div>
-                    </div>
-                  </li>
+                    </li>
+                  </a>
+                  <li className={styles.class_card}>
+                      <img src={Aurora} className={styles.class_img} />
+                      <div className={styles.class_container}>
+                        <div className={styles.class_skill}>
+                          <div className={styles.class_type} id={styles.project}>
+                            소프트웨어개발과
+                          </div>
+                          <a
+                            href="https://github.com/proj-aurora"
+                            target="_blank"
+                            className={styles.git}
+                          >
+                            <img src={Github} className={styles.class_format} />
+                          </a>
+                        </div>
+                        <div className={styles.class_desc}>
+                          <div
+                            className={styles.class_title}
+                            id={styles.green_link}
+                          >
+                            Aurora
+                          </div>
+                        </div>
+                      </div>
+                    </li>
                 </ul>
               </div>
             </div>

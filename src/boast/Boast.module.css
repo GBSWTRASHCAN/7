@@ -72,7 +72,6 @@ section {
   box-shadow: 10px 10px 10px -5px rgba(25, 42, 70, 0.2);
   border-radius: 10px;
   margin: 0 10px;
-  cursor: pointer;
   position: relative; top: 0px; transition: top 0.2s;
 }
 

@@ -39,13 +39,6 @@ section {
   align-items: center;
 }
 
-.department_title {
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-align: center;
-  font-family: 'TmoneyRoundWindExtraBold';
-}
-
 .department_list {
   display: flex;
 }
@@ -170,6 +163,7 @@ section {
   width: 100%;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: black;
   font-family: 'TmoneyRoundWindExtraBold';
 }
 
@@ -179,6 +173,10 @@ section {
 
 .git:hover {
   top: -3px;
+}
+
+#project {
+  color: black;
 }
 
 #green_link {
