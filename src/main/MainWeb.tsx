@@ -5,9 +5,10 @@ import FuctionICo from '../imgs/gbsw/전국.png'
 import MouIco from '../imgs/gbsw/MOU.png'
 import KapstoneICo from "../imgs/gbsw/캡스톤.png";
 import C_Ico from '../imgs/gbsw/국제교류.jpg'
+import Git from '../imgs/github.svg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faMedal, faPhotoFilm } from "@fortawesome/free-solid-svg-icons";  
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 function MainWeb () {
   const navigate = useNavigate();
   return (
@@ -52,8 +53,11 @@ function MainWeb () {
                 <div className={styles.skill_usage}>주요 업적</div>
               </div>
             </div>
-            <div className={styles.skill} onClick={() => navigate("/Introduce")}>
-              <img src={SoWonIco} className={styles.sowon}/>
+            <div
+              className={styles.skill}
+              onClick={() => navigate("/Introduce")}
+            >
+              <img src={SoWonIco} className={styles.sowon} />
               <div className={styles.skill_title}>
                 <div className={styles.skill_name}>학교 소개</div>
                 <div className={styles.skill_usage}>과별소개보러가기</div>
@@ -70,13 +74,17 @@ function MainWeb () {
                 <div className={styles.skill_usage}>갤러리</div>
               </div>
             </div>
-            <div className={styles.skill}>
+            <a
+              href="https://www.instagram.com/gbsw_hs/"
+              target="_blank"
+              className={styles.skill}
+            >
               <img src={InstagramIco} className={styles.insta_style} />
               <div className={styles.skill_title}>
                 <div className={styles.skill_name}>인스타그램</div>
                 <div className={styles.skill_usage}>바로가기</div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
@@ -125,9 +133,7 @@ function MainWeb () {
                 <img src={KapstoneICo} className={styles.class_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
-                    <div className={styles.class_type}>
-                      2023캡스톤프로젝트
-                    </div>
+                    <div className={styles.class_type}>2023캡스톤프로젝트</div>
                     <div className={styles.class_format}>한학기 프로젝트</div>
                   </div>
                   <div className={styles.class_desc}>
@@ -142,9 +148,7 @@ function MainWeb () {
                 <img src={C_Ico} className={styles.class_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
-                    <div className={styles.class_type}>
-                      국제알고리즘대회
-                    </div>
+                    <div className={styles.class_type}>국제알고리즘대회</div>
                     <div className={styles.class_format}>대회 및 문화탐방</div>
                   </div>
                   <div className={styles.class_desc}>
@@ -161,8 +165,9 @@ function MainWeb () {
       </section>
       <footer>
         <div className={styles.inner}>
-        <div className={styles.address}>우[37362] 경상북도 의성군 봉양면 봉호로 14 경북소프트웨어고등학교 Tel. 교무실 054.832.2903</div>
-        <div className={styles.address_title}>Copyright(c) 경북소프트웨어고등학교. All right reserved.</div>
+          <a href="https://github.com/806gw/Promotion_gbsw" target="_blank">
+            <img src={Git} className={styles.git} />
+          </a>
         </div>
       </footer>
     </div>
