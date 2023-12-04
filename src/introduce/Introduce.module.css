@@ -87,6 +87,12 @@ section {
 .lang {
   margin: 5px;
   width: 35px;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.lang:hover {
+  transform: scale(1.4);
 }
 
 .department_introduce {
@@ -151,7 +157,7 @@ section {
 }
 
 .class_type {
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
   margin-top: 10px;
   font-family: 'TmoneyRoundWindExtraBold';
@@ -177,11 +183,23 @@ section {
 }
 
 .git {
-  position: relative; top: 0px; transition: top 0.2s;
+  width: 45px;
+  transition: .2s ease-in-out;
 }
 
 .git:hover {
-  top: -3px;
+  cursor: pointer;
+  filter: invert(45%) sepia(7%) saturate(4777%) hue-rotate(194deg) brightness(89%) contrast(80%);
+}
+
+.notion {
+  width: 45px;
+  position: relative; top: 0px; transition: top 0.2s;
+}
+
+.notion:hover {
+  cursor: pointer;
+  top: -4px;
 }
 
 #project {
@@ -194,4 +212,11 @@ section {
 
 #green_link:hover {
   color: #2F598A;
+}
+
+#aurora_link {
+  font-size: 1.2rem;
+}
+#aurora_link:hover {
+  color: #2F598A
 }

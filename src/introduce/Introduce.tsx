@@ -87,7 +87,7 @@ function Introduce () {
                             className={styles.class_type}
                             id={styles.project}
                           >
-                            소프트웨어개발과
+                           Team-Firewall
                           </div>
                           <a
                             href="https://github.com/Team-Firewall"
@@ -113,7 +113,7 @@ function Introduce () {
                     <div className={styles.class_container}>
                       <div className={styles.class_skill}>
                         <div className={styles.class_type} id={styles.project}>
-                          소프트웨어개발과
+                          Team Pixel
                         </div>
                         <a
                           href="https://github.com/proj-aurora"
@@ -126,7 +126,7 @@ function Introduce () {
                       <div className={styles.class_desc}>
                         <div
                           className={styles.class_title}
-                          id={styles.green_link}
+                          id={styles.aurora_link}
                         >
                           Aurora
                         </div>
@@ -143,9 +143,9 @@ function Introduce () {
                         <a
                           href="https://kairos-hk.notion.site/470c1f958aba4d4cb96cffc16f85245a?v=ed37687162494f89b7465295a678f54a"
                           target="_blank"
-                          className={styles.git}
+                          className={styles.notion}
                         >
-                          <img src={Notion} className={styles.class_format} />
+                          <img src={Notion} className={styles.class_format}/>
                         </a>
                       </div>
                       <div className={styles.class_desc}>
