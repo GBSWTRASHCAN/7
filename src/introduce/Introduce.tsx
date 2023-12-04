@@ -15,8 +15,11 @@ import Machine from '../imgs/lang_icon/machine-learning.svg'
 import c2 from '../imgs/lang_icon/c2.svg'
 import unity from '../imgs/lang_icon/unity.svg'
 import Github from '../imgs/github.svg'
+import Notion from '../imgs/notion-svgrepo-com (3).svg'
 import Green from '../imgs/student_project/green.jpg'
 import Aurora from '../imgs/student_project/Aurora.gif'
+import BlueArchive from '../imgs/student_project/blue.gif'
+import Map from '../imgs/student_project/map.gif'
 
 function Introduce () {
   return (
@@ -62,8 +65,8 @@ function Introduce () {
                   <img src={Enco} className={styles.char} />
                   <div className={styles.game_title}>게임개발과</div>
                   <div className={styles.department_introduce}>
-                    게임개발 기획, 분석, 설계, 디자인, 프로그래밍, 테스트,
-                    운영업무를 수행하는 게임개발자 양성
+                    게임개발 기획, 분석, 설계, 디자인, 프로그래밍, <br />
+                    테스트, 운영업무를 수행하는 게임개발자 양성
                   </div>
                   <div className={styles.lang_list}>
                     <img src={c2} className={styles.lang} />
@@ -79,7 +82,10 @@ function Introduce () {
                       <img src={Green} className={styles.class_img} />
                       <div className={styles.class_container}>
                         <div className={styles.class_skill}>
-                          <div className={styles.class_type} id={styles.project}>
+                          <div
+                            className={styles.class_type}
+                            id={styles.project}
+                          >
                             소프트웨어개발과
                           </div>
                           <a
@@ -102,14 +108,43 @@ function Introduce () {
                     </li>
                   </a>
                   <li className={styles.class_card}>
-                      <img src={Aurora} className={styles.class_img} />
+                    <img src={Aurora} className={styles.class_img} />
+                    <div className={styles.class_container}>
+                      <div className={styles.class_skill}>
+                        <div className={styles.class_type} id={styles.project}>
+                          소프트웨어개발과
+                        </div>
+                        <a
+                          href="https://github.com/proj-aurora"
+                          target="_blank"
+                          className={styles.git}
+                        >
+                          <img src={Github} className={styles.class_format} />
+                        </a>
+                      </div>
+                      <div className={styles.class_desc}>
+                        <div
+                          className={styles.class_title}
+                          id={styles.green_link}
+                        >
+                          Aurora
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <a href="https://bluearchive.dyacode.kro.kr/" target="_blank">
+                    <li className={styles.class_card}>
+                      <img src={BlueArchive} className={styles.class_img} />
                       <div className={styles.class_container}>
                         <div className={styles.class_skill}>
-                          <div className={styles.class_type} id={styles.project}>
-                            소프트웨어개발과
+                          <div
+                            className={styles.class_type}
+                            id={styles.project}
+                          >
+                            손보석 학생 dya-only
                           </div>
                           <a
-                            href="https://github.com/proj-aurora"
+                            href="https://github.com/dya-only/BlueArchive"
                             target="_blank"
                             className={styles.git}
                           >
@@ -121,7 +156,38 @@ function Introduce () {
                             className={styles.class_title}
                             id={styles.green_link}
                           >
-                            Aurora
+                            비공식 블루아카이브 클론 웹사이트
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </a>
+                </ul>
+                <ul className={styles.class_list}>
+                <li className={styles.class_card}>
+                      <img src={Map} className={styles.class_img} />
+                      <div className={styles.class_container}>
+                        <div className={styles.class_skill}>
+                          <div
+                            className={styles.class_type}
+                            id={styles.project}
+                          >
+                            김동영 학생 kairos-hk
+                          </div>
+                          <a
+                            href="https://kairos-hk.notion.site/470c1f958aba4d4cb96cffc16f85245a?v=ed37687162494f89b7465295a678f54a"
+                            target="_blank"
+                            className={styles.git}
+                          >
+                            <img src={Notion} className={styles.class_format} />
+                          </a>
+                        </div>
+                        <div className={styles.class_desc}>
+                          <div
+                            className={styles.class_title}
+                            id={styles.green_link}
+                          >
+                            차량 침수피해를 예방하는 길찾기 서비스
                           </div>
                         </div>
                       </div>

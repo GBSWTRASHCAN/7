@@ -109,9 +109,18 @@ section {
 
 .class_list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin: 1rem 0 0 0;
   padding: 1rem;
+}
+
+.gbsw_img {
+  width: 240px;
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+
 }
 
 .class_card {
