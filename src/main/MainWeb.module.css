@@ -3,6 +3,8 @@
 }
 
 body {
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -32,6 +34,17 @@ header {
   z-index: 1000;
   display: flex;
   background-color: #fff;
+  transition: .2s ease;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+#dark-theme {
+  background-color: #333;
+  color: #fff;
 }
 
 .head_container {
@@ -53,9 +66,8 @@ header {
 }
 
 .head_container .head_logo {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #8E8d8d;
+  font-size: 1.7rem;
+  cursor: pointer;
 }
 
 section {
@@ -208,6 +220,8 @@ section {
 
 .class_card {
   width: 240px;
+  color: black;
+  background-color: #fff;
   box-shadow: 10px 10px 10px -5px rgba(25, 42, 70, 0.2);
   border-radius: 10px;
   margin: 0 10px;
@@ -285,4 +299,14 @@ footer {
   .inner {
     max-width: 1100px;
   } 
+}
+
+.dark_mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.light_mode {
+  background-color: #fff;
+  color: #333;
 }

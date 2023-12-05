@@ -9,21 +9,32 @@ import Git from '../imgs/github.svg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faMedal, faPhotoFilm } from "@fortawesome/free-solid-svg-icons";  
 import { useNavigate } from 'react-router-dom'
+import { useState } from 'react'
+
 function MainWeb () {
   const navigate = useNavigate();
+  const [isDarktheme, setDarktheme] = useState(false);
+  const toggleTheme = () => {
+    setDarktheme((prev) => !prev);
+  }
   return (
-    <div>
+    <div
+      id={styles.body}
+      className={`${isDarktheme ? styles["dark-theme"] : ""}`}
+    >
       <script
         src="https://kit.fontawesome.com/b202cac855.js"
         crossOrigin="anonymous"
       ></script>
-      <header>
+      <header className={`${isDarktheme ? styles["dark-theme"] : ""}`}>
         <div className={styles.inner}>
           <div className={styles.head_container}>
             <div className={styles.head_brand}>
-              <a href="http://school.gyo6.net/gbsw">경북소프트웨어고등학교</a>
+              <a href="http://school.gyo6.net/gbsw" id={`${isDarktheme ? styles["dark-theme"] : ""}`}>경북소프트웨어고등학교</a>
             </div>
-            <div className={styles.head_logo}>홍보사이트</div>
+            <div className={styles.head_logo} onClick={toggleTheme} id={`${isDarktheme ? styles["dark-theme"] : ""}`}>
+            {isDarktheme ? "☀️" : "🌙"}
+            </div>
           </div>
         </div>
       </header>
@@ -39,63 +50,120 @@ function MainWeb () {
           </div>
         </div>
       </section>
-      <section>
+      <section className={`${isDarktheme ? styles["dark-theme"] : ""}`}>
         <div className={styles.inner}>
           <div className={styles.skill_container}>
-            <div className={styles.skill} onClick={() => navigate("/Boast")}>
+            <div
+              className={styles.skill}
+              onClick={() => navigate("/Boast")}
+              id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+            >
               <FontAwesomeIcon
                 icon={faMedal}
                 className={styles.skill_icon}
                 id={styles.medal_style}
               />
               <div className={styles.skill_title}>
-                <div className={styles.skill_name}>학교자랑</div>
-                <div className={styles.skill_usage}>주요 업적</div>
+                <div
+                  className={styles.skill_name}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  학교자랑
+                </div>
+                <div
+                  className={styles.skill_usage}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  주요 업적
+                </div>
               </div>
             </div>
             <div
               className={styles.skill}
               onClick={() => navigate("/Introduce")}
+              id={`${isDarktheme ? styles["dark-theme"] : ""}`}
             >
               <img src={SoWonIco} className={styles.sowon} />
               <div className={styles.skill_title}>
-                <div className={styles.skill_name}>학교 소개</div>
-                <div className={styles.skill_usage}>과별소개보러가기</div>
+                <div
+                  className={styles.skill_name}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  학교 소개
+                </div>
+                <div
+                  className={styles.skill_usage}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  과별소개보러가기
+                </div>
               </div>
             </div>
-            <div className={styles.skill}>
+            <div
+              className={styles.skill}
+              id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+            >
               <FontAwesomeIcon
                 icon={faPhotoFilm}
                 className={styles.skill_icon}
                 id={styles.film_style}
               />
               <div className={styles.skill_title}>
-                <div className={styles.skill_name}>특색 프로그램</div>
-                <div className={styles.skill_usage}>갤러리</div>
+                <div
+                  className={styles.skill_name}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  특색 프로그램
+                </div>
+                <div
+                  className={styles.skill_usage}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  갤러리
+                </div>
               </div>
             </div>
             <a
               href="https://www.instagram.com/gbsw_hs/"
               target="_blank"
               className={styles.skill}
+              id={`${isDarktheme ? styles["dark-theme"] : ""}`}
             >
               <img src={InstagramIco} className={styles.insta_style} />
               <div className={styles.skill_title}>
-                <div className={styles.skill_name}>인스타그램</div>
-                <div className={styles.skill_usage}>바로가기</div>
+                <div
+                  className={styles.skill_name}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  인스타그램
+                </div>
+                <div
+                  className={styles.skill_usage}
+                  id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+                >
+                  바로가기
+                </div>
               </div>
             </a>
           </div>
         </div>
       </section>
-      <section>
+      <section className={`${isDarktheme ? styles["dark-theme"] : ""}`}>
         <div className={styles.inner}>
           <div className={styles.roadmap_container}>
             <div className={styles.roadmap_title_container}>
-              <div className={styles.roadmap_title}>학교 자랑</div>
+              <div
+                className={styles.roadmap_title}
+                id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+              >
+                학교 자랑
+              </div>
             </div>
             <ul className={styles.class_list}>
-              <li className={styles.class_card}>
+              <li
+                className={styles.class_card}
+                id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+              >
                 <img src={FuctionICo} className={styles.class_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
@@ -112,7 +180,10 @@ function MainWeb () {
                   </div>
                 </div>
               </li>
-              <li className={styles.class_card}>
+              <li
+                className={styles.class_card}
+                id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+              >
                 <img src={MouIco} className={styles.class_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
@@ -129,7 +200,10 @@ function MainWeb () {
                   </div>
                 </div>
               </li>
-              <li className={styles.class_card}>
+              <li
+                className={styles.class_card}
+                id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+              >
                 <img src={KapstoneICo} className={styles.class_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
@@ -144,7 +218,10 @@ function MainWeb () {
                   </div>
                 </div>
               </li>
-              <li className={styles.class_card}>
+              <li
+                className={styles.class_card}
+                id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+              >
                 <img src={C_Ico} className={styles.class_img} />
                 <div className={styles.class_container}>
                   <div className={styles.class_skill}>
