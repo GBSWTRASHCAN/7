@@ -6,6 +6,7 @@ import path from 'path';
 import MainWeb from './main/MainWeb';
 import Boast from './boast/Boast';
 import Introduce from './introduce/Introduce';
+import FeatureProgram from './FeatureProgram/FeatureProgram';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route element={<MainWeb />} path='/'/>
       <Route element={<Boast />} path='/Boast'/>
       <Route element={<Introduce />} path='/Introduce'/>
+      <Route element={<FeatureProgram />} path='/Feature'/>
     </Routes>
     </BrowserRouter>
   );

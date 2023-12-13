@@ -18,9 +18,9 @@ import Github from '../imgs/github.svg'
 import Notion from '../imgs/notion-svgrepo-com (3).svg'
 import Green from '../imgs/student_project/green.jpg'
 import Aurora from '../imgs/student_project/Aurora.gif'
-import BlueArchive from '../imgs/student_project/blue.gif'
+import GithubStar from '../imgs/student_project/githubStar.png'
 import Map from '../imgs/student_project/map.gif'
-import Isegye from '../imgs/student_project/isegye.gif'
+import Bamboo from '../imgs/student_project/Bamboo.png'
 
 function Introduce () {
   return (
@@ -87,7 +87,7 @@ function Introduce () {
                             className={styles.class_type}
                             id={styles.project}
                           >
-                           Team-Firewall
+                            Team-Firewall
                           </div>
                           <a
                             href="https://github.com/Team-Firewall"
@@ -145,7 +145,7 @@ function Introduce () {
                           target="_blank"
                           className={styles.notion}
                         >
-                          <img src={Notion} className={styles.class_format}/>
+                          <img src={Notion} className={styles.class_format} />
                         </a>
                       </div>
                       <div className={styles.class_desc}>
@@ -160,19 +160,19 @@ function Introduce () {
                   </li>
                 </ul>
                 <ul className={styles.class_list}>
-                  <a href="https://bluearchive.dyacode.kro.kr/" target="_blank">
+                  <a href="hhttps://star.dyacode.kro.kr" target="_blank">
                     <li className={styles.class_card}>
-                      <img src={BlueArchive} className={styles.class_img} />
+                      <img src={GithubStar} className={styles.class_img} />
                       <div className={styles.class_container}>
                         <div className={styles.class_skill}>
                           <div
                             className={styles.class_type}
                             id={styles.project}
                           >
-                            손보석 학생 dya-only
+                            손보석 학생
                           </div>
                           <a
-                            href="https://github.com/dya-only/BlueArchive"
+                            href="https://github.com/dya-only/star-frontend"
                             target="_blank"
                             className={styles.git}
                           >
@@ -184,25 +184,25 @@ function Introduce () {
                             className={styles.class_title}
                             id={styles.green_link}
                           >
-                            비공식 블루아카이브 클론 웹사이트
+                            깃허브 스타 랭킹 서비스
                           </div>
                         </div>
                       </div>
                     </li>
                   </a>
-                  <a href="https://wakguide.vercel.app/" target="_blank">
+                  {/* <a href="#" target="_blank"> */}
                     <li className={styles.class_card}>
-                      <img src={Isegye} className={styles.class_img} />
+                      <img src={Bamboo} className={styles.class_img} />
                       <div className={styles.class_container}>
                         <div className={styles.class_skill}>
                           <div
                             className={styles.class_type}
                             id={styles.project}
                           >
-                            강한 학생 L4ven
+                            Team StackMasters
                           </div>
                           <a
-                            href="https://github.com/L4VEN"
+                            href="https://github.com/806gw/gbsw-bamboo"
                             target="_blank"
                             className={styles.git}
                           >
@@ -214,12 +214,12 @@ function Introduce () {
                             className={styles.class_title}
                             id={styles.green_link}
                           >
-                            이세계아이돌 유입 가이드
+                            경북소프트웨어고등학교 대나무숲
                           </div>
                         </div>
                       </div>
                     </li>
-                  </a>
+                 {/* </a> */}
                 </ul>
               </div>
             </div>

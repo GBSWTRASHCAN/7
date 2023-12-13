@@ -102,6 +102,7 @@ function MainWeb () {
             <div
               className={styles.skill}
               id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+              onClick={() => navigate("/Feature")}
             >
               <FontAwesomeIcon
                 icon={faPhotoFilm}
