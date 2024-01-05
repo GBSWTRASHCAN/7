@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+#body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -295,11 +295,92 @@ footer {
   filter: invert(45%) sepia(7%) saturate(4777%) hue-rotate(194deg) brightness(89%) contrast(80%);
 }
 
+@media all and (max-width:767px) {
+  .title {
+    display: none;
+  }
+
+  .message {
+    font-size: 2.4rem;
+    margin-top: 30px;
+  }
+
+  .skill_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: 70%; /* 한 줄에 2개의 아이템이 나오도록 설정 */
+    box-sizing: border-box; 
+  }
+
+  .roadmap_container {
+    width: 100%;
+    margin: 2rem 0;
+    overflow: overlay;
+  }
+
+  .roadmap_container::-webkit-scrollbar {
+    width: 8px;  /* 스크롤바의 너비 */
+    height: 10px;
+  }
+  
+  .roadmap_container::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+    border-radius: 10px;
+  }
+  
+  .roadmap_container::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+  }
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .skill_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: 30%; /* 한 줄에 2개의 아이템이 나오도록 설정 */
+    box-sizing: border-box; 
+  }
+
+  .roadmap_container {
+    width: 100%;
+    margin: 2rem 0;
+    overflow: overlay;
+  }
+
+  .roadmap_container::-webkit-scrollbar {
+    width: 8px;  /* 스크롤바의 너비 */
+    height: 10px;
+  }
+  
+  .roadmap_container::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+    border-radius: 10px;
+  }
+  
+  .roadmap_container::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+  }
+}
+
 @media screen and (min-width: 1100px) {
   .inner {
     max-width: 1100px;
   } 
 }
+
+
 
 .dark_mode {
   background-color: #333;

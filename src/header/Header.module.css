@@ -64,6 +64,12 @@ header {
   color: #2ab1ff;
 }
 
+@media all and (max-width:767px) {
+  .head_brand > a {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1100px) {
   .inner {
     max-width: 1100px;
