@@ -301,8 +301,7 @@ footer {
   }
 
   .message {
-    font-size: 2.4rem;
-    margin-top: 30px;
+    display:  none;    
   }
 
   .skill_container {
@@ -311,7 +310,7 @@ footer {
   }
 
   .skill {
-    width: 70%; /* 한 줄에 2개의 아이템이 나오도록 설정 */
+    width: 65%; /* 한 줄에 2개의 아이템이 나오도록 설정 */
     box-sizing: border-box; 
   }
 

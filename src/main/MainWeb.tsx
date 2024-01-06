@@ -1,27 +1,28 @@
-import styles from '../main/MainWeb.module.css'
-import InstagramIco from '../imgs/instagram-2016-logo-svgrepo-com.svg'
-import SoWonIco from '../imgs/gbsw/sowon.png'
-import FuctionICo from '../imgs/gbsw/전국.png'
-import MouIco from '../imgs/gbsw/MOU.png'
+import styles from "../main/MainWeb.module.css";
+import InstagramIco from "../imgs/instagram-2016-logo-svgrepo-com.svg";
+import SoWonIco from "../imgs/gbsw/sowon.png";
+import FuctionICo from "../imgs/gbsw/전국.png";
+import MouIco from "../imgs/gbsw/MOU.png";
 import KapstoneICo from "../imgs/gbsw/캡스톤.png";
-import C_Ico from '../imgs/gbsw/국제교류.jpg'
-import Git from '../imgs/github.svg'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faMedal, faPhotoFilm } from "@fortawesome/free-solid-svg-icons";  
-import { useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+import C_Ico from "../imgs/gbsw/국제교류.jpg";
+import Git from "../imgs/github.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMedal, faPhotoFilm } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
-function MainWeb () {
+function MainWeb() {
   const navigate = useNavigate();
   const [isDarktheme, setDarktheme] = useState(false);
   const toggleTheme = () => {
     setDarktheme((prev) => !prev);
-  }
+  };
   return (
     <div
       id={styles.body}
       className={`${isDarktheme ? styles["dark-theme"] : ""}`}
     >
+      git
       <script
         src="https://kit.fontawesome.com/b202cac855.js"
         crossOrigin="anonymous"
@@ -30,10 +31,19 @@ function MainWeb () {
         <div className={styles.inner}>
           <div className={styles.head_container}>
             <div className={styles.head_brand}>
-              <a href="http://school.gyo6.net/gbsw" id={`${isDarktheme ? styles["dark-theme"] : ""}`}>경북소프트웨어고등학교</a>
+              <a
+                href="http://school.gyo6.net/gbsw"
+                id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+              >
+                경북소프트웨어고등학교
+              </a>
             </div>
-            <div className={styles.head_logo} onClick={toggleTheme} id={`${isDarktheme ? styles["dark-theme"] : ""}`}>
-            {isDarktheme ? "☀️" : "🌙"}
+            <div
+              className={styles.head_logo}
+              onClick={toggleTheme}
+              id={`${isDarktheme ? styles["dark-theme"] : ""}`}
+            >
+              {isDarktheme ? "☀️" : "🌙"}
             </div>
           </div>
         </div>
